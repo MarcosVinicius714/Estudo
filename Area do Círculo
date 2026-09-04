@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(int argc, char argv[]) {
+    double pi=3.1415, raio, area;
+    printf ("Raio: ");
+    scanf("%lf", &raio);
+    area pi * pow(raio, 2);
+    printf("\nArea: %4f\n\n", area);
+}
